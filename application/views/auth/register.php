@@ -66,6 +66,14 @@
         <input type="password" class="input" name="password_confirmation" value="<?= set_value('password_confirmation') ?>">
       </div>
     </div>
+    <div class="form-group">
+      <label for="jurusan">Jurusan</label>
+      <select class="form-control" id="jurusan" name="jurusan">
+        <option value="1">SAINTEK</option>
+        <option value="2">SOSHUM</option>
+      </select>
+      <small class="help-block"></small>
+    </div>
     <?= form_submit('submit', 'Daftar', array('id' => 'register_submit', 'class' => 'btn btn-primary btn-block btn-flat')); ?>
     <?= form_close(); ?>
   </div>

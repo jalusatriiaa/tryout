@@ -10,7 +10,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
  	<meta name="description" content="">
  	<meta name="author" content="">
-	
+
 	<!-- Required CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<link rel="stylesheet" href="<?=base_url()?>assets/bower_components/datatables.net-bs/css/dataTables.bootstrap4.min.css">
@@ -19,7 +19,7 @@
 	<link rel="stylesheet" href="<?=base_url()?>assets/bower_components/bootstrap-datetimepicker/bootstrap-datetimepicker.min.css">
 	<link rel="stylesheet" href="<?=base_url()?>assets/bower_components/pace/pace-theme-flash.css">
 	<link rel="shortcut icon" href="https://www.netclipart.com/pp/m/39-398343_training-icon-png-education-logo-png-blue.png" type="image/x-icon">
-	
+
 	<!-- Datatables Buttons -->
 	<link rel="stylesheet" href="<?=base_url()?>assets/bower_components/datatables.net-bs/plugins/Buttons-1.5.6/css/buttons.bootstrap.min.css">
 
@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="<?=base_url()?>assets/bower_components/froala_editor/css/froala_style.min.css">
     <link rel="stylesheet" href="<?=base_url()?>assets/bower_components/froala_editor/css/themes/royal.min.css">
 	<link rel="stylesheet" href="<?=base_url()?>assets/bower_components/summernote-0.8.16-dist/summernote-bs4.min.css">
-	
+
 	<!-- /texarea editor; -->
 
 	<!-- Custom CSS -->
@@ -51,7 +51,7 @@
 <script src="<?=base_url()?>assets/bower_components/sweetalert2/sweetalert2.all.min.js"></script>
 <script src="<?=base_url()?>assets/bower_components/select2/js/select2.full.min.js"></script>
 <script src="<?=base_url()?>assets/bower_components/moment/min/moment.min.js"></script>
-<script src="<?=base_url()?>assets/bower_components/bootstrap-datetimepicker/bootstrap-datetimepicker.min.js"></script>		
+<script src="<?=base_url()?>assets/bower_components/bootstrap-datetimepicker/bootstrap-datetimepicker.min.js"></script>
 
 <script type="text/javascript">
 	let base_url = '<?=base_url()?>';

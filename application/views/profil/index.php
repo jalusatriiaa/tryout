@@ -6,13 +6,13 @@
                 <h5 class="card-title">Nama : <?= $profil->nama ?></h5>
             </div>
             <div class="card-body">
-                <p class="text-center">Status : 
-                
+                <p class="text-center">Status :
+
                 <?php if($profil->kelas_id == "1" ) : ?>
                     <strong>FREE</strong>
                 <?php else : ?>
                     <strong>PREMIUM</strong>
-                <?php endif; ?>        
+                <?php endif; ?>
                  </p>
             </div>
         </div>

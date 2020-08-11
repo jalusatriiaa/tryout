@@ -14,7 +14,7 @@
                 <th>TIU</th>
                 <th>TKP</th>
                 <th>TOTAL SKD</th>
-            </tr>        
+            </tr>
         </thead>
         <tfoot>
             <tr>

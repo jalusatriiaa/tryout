@@ -24,7 +24,7 @@ class Profil extends CI_Controller{
         $mhs		    = $this->mhs;
         $id_mhs = $mhs->id_member;
         $pilihan = $this->ujian->getPrediksiKelulusan($mhs->id_member)->row();
-            
+
 
         $data = [
 			'user' => $this->ion_auth->user()->row(),
@@ -51,7 +51,7 @@ class Profil extends CI_Controller{
             'identitas' => $this->profil->editProfil($id_mhs),
             'tampil_prodi'  => $this->profil->tampilProdi($id_mhs),
         ];
-        
+
         $this->load->view('_templates/dashboard/_header.php', $data);
 		$this->load->view('profil/edit', $data);
 		$this->load->view('_templates/dashboard/_footer.php');
@@ -59,12 +59,12 @@ class Profil extends CI_Controller{
 
     public function editProfil(){
         $this->load->helper('string');
-    
+
         $nama_lengkap	= $this->input->post('nama_lengkap', true);
         $asal_sekolah	= $this->input->post('asal_sekolah', true);
         $mhs		    = $this->mhs;
         $id_mhs         = $mhs->id_member;
-        
+
 
         $input = [
             'nama'          => $nama_lengkap,

@@ -624,7 +624,7 @@ class Ujian extends CI_Controller
     // Input TPA
     if ($validasi_nama == "SAINTEK" . $ambil_id_to) {
       $this->master->update('h_tryout', $update_saintek, 'id_member', $mhs);
-    } 
+    }
 
 
     // $this->master->update('h_tryout', $to_update);

@@ -76,7 +76,7 @@ class Auth extends CI_Controller
       'nama'      => $this->input->post('fullname'),
       'email'     => $this->input->post('email'),
       'sekolah'   => $this->input->post('school'),
-      'kelas_id'  => 1,
+      'kelas_id'  => $this->input->post('jurusan'),
     ];
 
     $data = [
